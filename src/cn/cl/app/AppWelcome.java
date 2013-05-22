@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
+import cn.cl.app.ui.GuideActivity;
 import cn.cl.app.ui.MainActivity;
 
 /**
@@ -48,7 +49,7 @@ public class AppWelcome extends Activity {
 	}
 
 	private void jumpTo(){
-		startActivity(new Intent(this, MainActivity.class));
+		startActivity(new Intent(this, GuideActivity.class));
 		finish();
 	}
 
