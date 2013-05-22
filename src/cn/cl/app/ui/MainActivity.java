@@ -1,12 +1,11 @@
 package cn.cl.app.ui;
 
-import com.slidingmenu.lib.SlidingMenu;
-import com.slidingmenu.lib.app.SlidingFragmentActivity;
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import cn.cl.app.R;
+
+import com.slidingmenu.lib.SlidingMenu;
+import com.slidingmenu.lib.app.SlidingFragmentActivity;
 
 public class MainActivity extends SlidingFragmentActivity {
 	
